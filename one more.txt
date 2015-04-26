@@ -5,3 +5,4 @@ Her er HÅNDVÆRKTØJ håndværktøj
 
 
 /T
+m VIM: æøåÆØÅ
