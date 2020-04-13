@@ -5,7 +5,8 @@ The image below - from Windows Explorer - is the right way to sort.
 I'm using the city of Łódź to have some characters that is outside the Western codepage that was mostly used some deecades ago. Notice how Aberdeen and the danish city Aalborg are sorted. From old time, the "double a" was used insteadt of Å. The "double a" is pronounced as Å. The end of the danish alfabeth is ...STUVWXYZÆØAAÅ. Notice the "double A" between Ø and Å. 
 The Euro symbol is the only character in this demo that accupy three bytes. 
 
-<img src="https://github.com/ThorkilG12/HTML-and-PHP/blob/master/UTF-8%20and%20sorting%20Foldernames/image.png" width="40%">
+<img src="https://github.com/ThorkilG12/HTML-and-PHP/blob/master/Sort%20PHP%20arrays%20with%20UTF-8%20according%20to%20Locale/image.png" width="40%">
+
 
 #### Let's create a PHP array:
 ##### PHP 7.4 - Apache 2.4 - Windows 2012R2 
