@@ -5,12 +5,13 @@
 * Allow UTF-8 (All countries in Europe should be possible)
 * Use semi-colon as delimiter in input
 * Remove comma
-* Resulting string should de comma delimited
+* Resulting string should be comma delimited
 * Turn multi-space into single space
 * Trim
 * Allow categories to start with number
 
 ![From dirty to clean](https://github.com/ThorkilG12/HTML-and-PHP/blob/master/Fun%20with%20Clean%20Categories/p1.jpg "From Dirty to Clean and Delimited")
+Notice how the greek letter Lambda has been correctly uppercased. `λ -> Λ`
 
 ## The code
 ```html
@@ -27,7 +28,6 @@
 document.getElementById("inp").value = "B:,.M¤%&/W ;λgreek;;;бжЖrussian;H<>ell\oj;com,m()/a; Łó*dź ;1 spc;3   spc;æøå danish ;Euro€ "
 function update() {
   var postdata = (document.getElementById("inp").value.replace(",", "").split(';').filter(Boolean)).map(s => s.trim());
-  console.log(postdata)
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
@@ -44,6 +44,7 @@ function update() {
 ```
 ```php
 <?php
+# funWithCleanCats.php
 header("Content-Type: application/json"); 
 $jsonData = json_decode(file_get_contents("php://input"));
 $arrFromHtml = $jsonData->cats;
