@@ -1,4 +1,5 @@
-# Allow user to add new categories. Sanitize according to my rules:
+## Allow user to add new categories. 
+### Sanitize according to my rules:
 
 * Remove characters that cannot be part of names or places. Like # ¤ % & ? = < ] etc...
 * Uppercase first letter
@@ -55,4 +56,6 @@ $cleanCats = array_map(function ($element) {
 }, $arrFromHtml);
 echo json_encode('*' . strip_tags(implode(',', $cleanCats)) . '*');
 ```
+The above snippets is part of a solution, where editors can add categories to documents.
+
 /T
