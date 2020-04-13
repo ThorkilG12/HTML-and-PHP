@@ -1,5 +1,5 @@
-### As always, there are problems with locale letters here in Euro-land
-Let's get somo data. I'm using a folder on a windows PC localized for Denmark.
+### As always, there are problems with special national letters here in Euro-land
+Let's get some data. I'm using a folder on a windows PC localized for Denmark.
 The image below - from Windows Explorer - is the right way to sort.
 
 I'm using the city of Łódź to have some characters that is outside the Western codepage that was mostly used some deecades ago. Notice how Aberdeen and the danish city Aalborg are sorted. From old time, the "double a" was used insteadt of Å. The "double a" is pronounced as Å. The end of the danish alfabeth is ...STUVWXYZÆØAAÅ. Notice the "double A" between Ø and Å. 
